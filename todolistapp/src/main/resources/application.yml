@@ -1,0 +1,20 @@
+---
+server:
+  port: 8080
+  contextPath: /ToDoListApp
+---
+spring:
+  profiles: local,default
+datasource:
+  todolistapp:
+    url: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;
+    username: 
+    password:
+    driverClassName: org.h2.Driver
+    defaultSchema:
+    maxPoolSize: 10
+    hibernate:
+      hbm2ddl.method: create-drop
+      show_sql: true
+      format_sql: true
+      dialect: org.hibernate.dialect.H2Dialect

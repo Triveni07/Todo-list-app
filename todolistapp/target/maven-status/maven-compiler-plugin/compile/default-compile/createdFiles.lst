@@ -1,0 +1,9 @@
+com\assignments\todolist\configuration\JpaConfiguration.class
+com\assignments\todolist\service\ToDoService.class
+com\assignments\todolist\service\ToDoServiceImpl.class
+com\assignments\todolist\model\ToDo.class
+com\assignments\todolist\repositories\TodoRepository.class
+com\assignments\todolist\ToDoListApp.class
+com\assignments\todolist\controller\AppController.class
+com\assignments\todolist\controller\RestApiController.class
+com\assignments\todolist\util\CustomErrorType.class
